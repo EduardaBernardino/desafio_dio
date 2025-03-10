@@ -1,0 +1,8 @@
+from image_processing.utils import io, plot
+from image_processing.processing import combination, transformation
+
+image1 = io.read_image("C:/Users/eduar/OneDrive/TI/desafio-dio/logo.png")
+image2 = io.read_image("C:/Users/eduar/OneDrive/TI/desafio-dio/oculos.webp")
+
+plot.plot_image(image1)
+plot.plot_image(image2)

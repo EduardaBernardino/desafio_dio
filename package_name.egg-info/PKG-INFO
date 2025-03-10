@@ -1,0 +1,48 @@
+Metadata-Version: 2.2
+Name: package_name
+Version: 0.0.1
+Summary: My short description
+Home-page: my_github_repository_project_link
+Author: my_name
+Author-email: my_email
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+DESCRIPTION
+The package image_processing is used to:
+    processing:
+        -Histogram matching
+        -Structure similarity
+        -Resize image
+    Wills:
+        -Road image
+        -Save image
+        -Plot image
+        -Plot result
+        -Plot histogram
+
+
+INSTALLATION
+Use the package manager pip to install package_name
+
+pip install package_name
+
+
+USAGE
+from package_name.module1_name import file1_name
+file1_name.my_function()
+
+
+AUTHOR
+Eduarda_Bernardino
+
+
+LICENSE
+MIT
